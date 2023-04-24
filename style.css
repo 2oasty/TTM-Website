@@ -66,6 +66,9 @@ h2 {
     color: grey;
 }
 
+
+
+/*Home Page Styles*/
 .companies {
     display: block;
     margin-top: 100px;
@@ -136,7 +139,7 @@ h2 {
 
 
 
-
+/*Services Page Styles*/
 .services {
     width: 285px;
     float: left;
@@ -152,6 +155,7 @@ h2 {
 
 
 
+/*Our Story Page Styles*/
 #imageGallery {
     width: 400px;
     line-height: 0;
@@ -173,7 +177,7 @@ h2 {
 
 
 
-
+/*Contact Page Styles*/
 .contact img {
     float: left;
     margin-right: 100px;
@@ -193,4 +197,11 @@ h2 {
 
 .details h4 {
     margin-top: 30px;
+}
+
+#map {
+    float: left;
+    margin-right: 100px;
+    height: 400px;
+    width: 600px;
 }

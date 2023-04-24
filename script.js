@@ -16,3 +16,30 @@ function revealText() {
     }
 
 }
+
+  let map;
+
+  async function initMap() {
+    // The location of The Time Machine
+    const position = { lat: 34.20620, lng: -118.22956 };
+    // Request needed libraries.
+    //@ts-ignore
+    const { Map } = await google.maps.importLibrary("maps");
+    const { AdvancedMarkerView } = await google.maps.importLibrary("marker");
+  
+    // The map, centered at The Time Machine
+    map = new Map(document.getElementById("map"), {
+      zoom: 15,
+      center: position,
+      mapId: "DEMO_MAP_ID",
+    });
+  
+    // The marker, positioned at The Time Machine
+    const marker = new AdvancedMarkerView({
+      map: map,
+      position: position,
+      title: "The Time Machine",
+    });
+  }
+  
+  initMap();
