@@ -6,6 +6,7 @@ body {
     margin: 0 auto;
     max-width: 1000px;
     background-color: white;
+    overflow-y: scroll;
 }
 
 header {
@@ -57,6 +58,12 @@ h1 {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 80px;
+    color: grey;
 }
 
 .companies {
