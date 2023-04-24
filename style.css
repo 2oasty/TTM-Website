@@ -150,10 +150,6 @@ h2 {
     margin:auto;
 }
 
-.services h3 {
-    display: inline-block;
-}
-
 #textButton {
     display: inline-block;
     border: none;
@@ -166,7 +162,7 @@ h2 {
     cursor: pointer;
 }
 
-#hiddenText {
+#hiddenSection {
     display: none;
 }
 

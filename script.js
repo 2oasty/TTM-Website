@@ -1,17 +1,18 @@
 function revealText() {
-    var hiddenText = document.getElementById("hiddenText");
+    var hiddenSection = document.getElementById("hiddenSection");
     var textButton = document.getElementById("textButton");
 
-    if (hiddenText.style.display === "none") {
-        hiddenText.style.display = "block";
+    if (hiddenSection.style.display === "none") {
+        hiddenSection.style.display = "block";
         textButton.innerHTML = "-";
         textButton.style.paddingLeft = "9px";
         textButton.style.paddingRight = "9px";
     }
     else {
-        hiddenText.style.display = "none";
+        hiddenSection.style.display = "none";
         textButton.innerHTML = "+";
         textButton.style.paddingLeft = "6px";
         textButton.style.paddingRight = "6px";
     }
+
 }
