@@ -145,8 +145,30 @@ h2 {
     text-align: center;
 }
 
+.services img {
+    display: block;
+    margin:auto;
+}
 
+.services h3 {
+    display: inline-block;
+}
 
+#textButton {
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    background-color: #696969;
+    font-size: 20.8px;
+}
+
+#textButton:hover {
+    cursor: pointer;
+}
+
+#hiddenText {
+    display: none;
+}
 
 .contact img {
     float: left;
