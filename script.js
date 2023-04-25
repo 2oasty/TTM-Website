@@ -18,7 +18,7 @@ function revealText() {
 
 }
 
-//Google Map (works on local .html but not Github pages)
+//Google Map
   let map;
 
   async function initMap() {
