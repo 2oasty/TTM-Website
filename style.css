@@ -64,7 +64,14 @@ h2 {
     color: grey;
 }
 
-
+footer {
+    height: 100px;
+    margin-top: 100px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    background-color: #e3f6ff;
+    text-align: center;
+}
 
 /*Home Page Styles*/
 #hook {
