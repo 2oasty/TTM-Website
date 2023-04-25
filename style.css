@@ -37,9 +37,8 @@ nav {
 }
 
 nav a:hover {
-    background-color: gray;
     cursor: pointer;
-    color: white;
+    color: blue;
     padding-top: 2px;
     padding-bottom: 2px;
     transition: .25s; 
@@ -137,6 +136,8 @@ h2 {
 
 .process button {
     border-radius: 25px;
+    margin-top: 20px;
+    padding: 10px;
 }
 
 .process button:hover {
