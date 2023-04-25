@@ -176,8 +176,6 @@ footer {
     display: block;
 }
 
-
-
 /*Services Page Styles*/
 .services {
     width: 285px;
@@ -192,7 +190,21 @@ footer {
     margin:auto;
 }
 
+#textButton {
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    background-color: #696969;
+    font-size: 20.8px;
+}
 
+#textButton:hover {
+    cursor: pointer;
+}
+
+#hiddenSection {
+    display: none;
+}
 
 /*Our Story Page Styles*/
 #imageGallery {
@@ -213,9 +225,6 @@ footer {
 .aboutPara {
     display:inline;
 }
-
-
-
 
 /*Contact Page Styles*/
 .contact img {
