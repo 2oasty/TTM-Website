@@ -220,14 +220,15 @@ h2 {
 
 .details img {
     margin: auto;
+    padding-right: 10px;
 }
 
 .details h3 {
-    margin: 0;
+    padding-top: 10px;
 }
 
 .details h4 {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #map {
