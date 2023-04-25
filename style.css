@@ -14,8 +14,8 @@ header {
     padding: 20px 0;
     border-bottom: 2px solid white;
     box-sizing: border-box;
-    background-color: #146cfc
-    ;
+    background-color: #146cfc;
+    
 }
 
 header a {
@@ -26,7 +26,6 @@ header a {
 }
 
 nav {
-    
     display: inline-block;
     background-color: #EEF5FF;
     margin-left: 270px;

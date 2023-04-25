@@ -1,3 +1,4 @@
+//Reveal text on click (not currently implemented)
 function revealText() {
     var hiddenSection = document.getElementById("hiddenSection");
     var textButton = document.getElementById("textButton");
@@ -17,6 +18,7 @@ function revealText() {
 
 }
 
+//Google Map
   let map;
 
   async function initMap() {
